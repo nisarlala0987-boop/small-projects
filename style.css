@@ -71,13 +71,20 @@ position: absolute;
     margin: auto ;
     position: relative;
     border-radius: 20px;
+
+
+
+
 }
 #container input:hover {
     border-color: blue;
-    border: 2px solid blue;
     font-family: 'Arial', sans-serif;
-    color: #333;
 }
+#container input[type=submit]{
+    border-color: blue;
+    font-family: 'Arial', sans-serif;
+    font-size: larger;
+        }
 
 
 
@@ -114,6 +121,9 @@ margin-bottom: 330px;
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+
+
 #eye{
     position: absolute;
     margin-left: 260px;
